@@ -27,6 +27,7 @@ function createWindow() {
     counter++;
     idArray.push(counter);
     let win = document.createElement("div");
+    document.getElementById("desktop").appendChild(win);
     apps[counter - 1] = win;
     return counter;
 }
