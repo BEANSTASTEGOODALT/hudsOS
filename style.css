@@ -26,7 +26,7 @@ html, body {
     border-radius: 18px;
 }
 
-.app:hover {
+.logo:hover {
     width: 80px;
     height: 80px;
 }
