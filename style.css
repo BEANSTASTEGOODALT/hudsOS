@@ -14,7 +14,7 @@ html, body {
 
 #taskbar {
     position: fixed;
-    bottom: 12px;
+    bottom: 48px;
     left: 50%;
     transform: translateX(-50%);
     height: 58px;
@@ -27,6 +27,6 @@ html, body {
 }
 
 .logo:hover {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
