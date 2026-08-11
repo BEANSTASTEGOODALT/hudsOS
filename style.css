@@ -27,6 +27,6 @@ html, body {
 }
 
 .app:hover {
-    width: 80;
-    height: 80;
+    width: 80px;
+    height: 80px;
 }
