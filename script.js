@@ -7,7 +7,7 @@ switch (appid) {
     case "calculator":
         let id = createWindow();
         win = apps[id-1];
-        win.innerHTML = `
+        win.innerHTML += `
         <h4>Calculator App</h4>
         <p>WIP, this is a test!</p>
         `;
@@ -27,7 +27,15 @@ function createWindow() {
     counter++;
     idArray.push(counter);
     let win = document.createElement("div");
+    win.setAttribute("class", "window")
     document.getElementById("desktop").appendChild(win);
+    win.innerHTML = `
+    <div class='menu-bar'>
+        <button id='close' class='menu-btn'>🔴</button>
+        <button id='minimize' class='menu-btn'>🟡</button>
+        <button id='fullscreen' class='menu-btn'>🟢</button>
+    </div>
+    `;
     apps[counter - 1] = win;
     return counter;
 }

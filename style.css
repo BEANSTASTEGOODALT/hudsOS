@@ -35,3 +35,37 @@ html, body {
     width: 50px;
     height: 50px;
 }
+
+.window {
+    position: fixed;
+    bottom: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 200px;
+    width: 350px;
+    padding: 0 12px;
+    background: rgba(151, 151, 151, 0.65);
+    border: 3px solid rgba(10, 10, 10, 0.799);
+    border-radius: 18px;
+}
+
+.menu-bar {
+    position: fixed;
+    bottom: 177.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 20px;
+    width: 349.5px;
+    padding: 0 12px;
+    background: rgba(30, 30, 30, 0.774);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+}
